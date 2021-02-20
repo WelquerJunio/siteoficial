@@ -5,11 +5,14 @@
     border-radius: 50%;
 }
 .corPrimaria {
-    background-color: #15bc9c;
+    background-color: #000000;
 }
 .corSecundaria {
     background-color: #2c3e50;
-
+    
+}
+.corTercearia {
+    background-color: #2c3e50;
 }
 p {
     font-family:Lato, "Halvetica Neve", Arial, Helvetica, sans-serif;
@@ -20,26 +23,23 @@ p {
 }
 
 .titulosBrancos {
-    text-decoration: underline;
     text-underline-position: below; 
     padding-bottom: 20px;
-    text-transform: uppercase;
     font-weight:700;
     color: white;
 
 }
 .titulosVerde {
-    text-decoration: underline;
     text-underline-position: below; 
     padding-bottom: 20px;
-    text-transform: uppercase;
     font-weight:700;
-    color: #18bc9c;
+    color: #0A1121;
 }
 .textoBranco {
     color: white !important;
 
 }
+
 .jumbotron {
     margin-bottom: 0px;
 }
@@ -51,3 +51,7 @@ p {
 html{
     scroll-behavior: smooth;
 }
+h6{
+    text-align:left;
+}
+
